@@ -1,0 +1,12 @@
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.ipynb_checkpoints
+*.ipynb
+
+# mac 용
+.DS_Store  
+
