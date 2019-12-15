@@ -23,7 +23,7 @@ def post_detail(request, pk):
         {'post': post,}
     )
 
-@login_required
+#@login_required
 def post_new(request):
     # request.POST, request.FILES
 

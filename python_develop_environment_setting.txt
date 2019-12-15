@@ -104,3 +104,20 @@
 	4. 접속할 html을  templates/blog/접속url.html 생성
 	   처음에 연동 테스트를 위한 간단한 문구 생성
 	   함수값이 넘어 오면 화면 데이트 출력 
+
+
+[pythonanywhere 에 소스 패포]
+	1.  www.pythonanywhere.com 사이트 가입
+	2.  console 선택 
+	3.  git clone  깃 주소로 소스 복제
+	4.  virtaulenv --python=python3.6 myvenv
+	5.  source myvenv/bin/activate  <= 가상환경 수행
+	6.  pip --vergion
+	    pip install "django>=2.7.0"
+	 	django-admin --version
+	7.  database 생성
+		python manage.py migrate
+
+
+
+
